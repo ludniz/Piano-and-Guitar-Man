@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Typography*/
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+    text-align: center;
+}
+
+.home {
+background-image: url("../images/piano-349928.jpg");
+    
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing {
+    padding: 0px 0 100px;
+    color: white;
+}
+
+.img-fluid {
+/*    width: 100%;*/
+    max-width: 30%;
+/*    height: auto;*/
+    margin: 250px 0 50px;
+}
+
+.two {
+/*    height: 100px;*/
+    background-color:antiquewhite;
+}
