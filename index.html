@@ -10,32 +10,52 @@
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet">
 </head>
+    
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/ddeb6016fa.js" crossorigin="anonymous"></script>
 
 <body>
 <!-- body code goes here -->
 <section class="home">
     
     <!-- The fixed navbar will overlay your other content, unless you add padding to the bottom of the <body>. Tip: By default, the navbar is 50px high.  -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-   <a class="navbar-brand" href="#">Navbar</a>
+    <div class="container-fluid" <!-- Nav Bar -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #EEEEEE">
+   <a class="navbar-brand" href="#">
+       <!-- Image and text -->
+    <img src="images/placeholder_logo.png" alt="logo" width="50" height="50" class="d-inline-block align-content-center">
+      Piano & Guitar Man
+    </a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
    <span class="navbar-toggler-icon"></span>
    </button>
+
+
+<!--
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="images/placeholder_logo.png" alt="logo" width="50" height="50" class="d-inline-block align-content-center">
+      Piano & Guitar Man
+    </a>
+  </div>
+-->
+
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav ml-auto">
          <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">About Us</a>
          </li>
          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
+            Services
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <a class="dropdown-item" href="#">Action</a>
-               <a class="dropdown-item" href="#">Another action</a>
+               <a class="dropdown-item" href="#">Piano Tuning, Repairs & Servicing</a>
+               <a class="dropdown-item" href="#">Piano Buying/Selling</a>
+                <a class="dropdown-item" href="#">Piano Renting</a>
                <div class="dropdown-divider"></div>
                <a class="dropdown-item" href="#">Something else here</a>
             </div>
@@ -51,20 +71,169 @@
    </div>
 </nav>
     
-<div class="container-fluid landing">
-    <img class="img-fluid" src="images/placeholder_logo.png" alt="company-logo">
+<div class="container landing">
+    <img class="img-logo" src="images/placeholder_logo.png" alt="company-logo">
     <h1 class="big-heading">Setting the standard for piano tuning</h1>
     </div>
+    </div>
 
+</section>
 
-
+<section class="meet-deon">
+    
+  <h1>Meet The Man.</h1>
+  <img class="img-medium" src="images/deon.jpg" alt="deon">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida arcu ac tortor dignissim convallis aenean. Diam maecenas sed enim ut sem.</p>
+    <button type="button" class="btn btn-outline-dark btn-lg">Meet Deon</button>
+  <div class="row">
+    <div class="col-lg-4"> </div>
+  </div>
+  
     
 </section>
     
+<section class="features coloured-section">
     
-<section class="two">
+        <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-set" class="col-lg-4">
+            <i class="fas fa-record-vinyl fa-5x"></i>
+          <h3 class="feature-heading">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+          <div class="feature-set" class="col-lg-4">
+          <i class="fas fa-record-vinyl fa-5x"></i>
+          <h3 class="feature-heading">Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="feature-set" class="col-lg-4">
+          <i class="fas fa-record-vinyl fa-5x"></i>
+          <h3 class="feature-heading">Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+          </div>
+            </div>
+    
+    <!-- Intro Video WIP-->
+<!--
+<video autoplay muted loop id="deon-intro">
+  <source src="videos/deon-intro.mp4">
+</video>
+-->
+    
+<!--
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GeP9OOw0u6o&feature=youtu.be" allowfullscreen></iframe>
+</div>
+-->
     
     </section>
+    
+    <section class="white-section" id="piano-pricing">
+        
+<h2 class="section-heading">Piano Services</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+    <div class="row">
+      <div class="pricing-column col-md-4"> <img class="card-img-top" src="images/piano-tuning.jpg" alt="Piano Tuning Image">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Piano Tuning, Repairs & Servicing</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          </div>
+        </div>
+
+              <div class="pricing-column col-md-4"> <img class="card-img-top" src="images/piano-buying.jpg" alt="Card image cap">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Piano Buying/Selling</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          </div>
+        </div>
+        
+              <div class="pricing-column col-md-4"> <img class="card-img-top" src="images/card-img.png" alt="Card image cap">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Piano Renting</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          </div>
+        </div>
+
+    </div>
+    </div>
+    </section>
+    
+    
+<section class="testimonials coloured-section">
+  <div id="carouselControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Deon know's his work. Very Happy. Strongly Recommended.</h2>
+          <em>Sylvia M.E. Roets, New York</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Going the Extra Mile to...</h2>
+          <em>Donvé Fullard, Smithfield</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </section>
+    
+    <section class="white-section" id="guitar-pricing">
+        
+<h2 class="section-heading">Guitar Services</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+    <div class="row">
+      <div class="pricing-column col-md-4"> <img class="card-img-top" src="images/piano-tuning.jpg" alt="Piano Tuning Image">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Piano Tuning</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          </div>
+        </div>
+
+              <div class="pricing-column col-md-4"> <img class="card-img-top" src="images/piano-buying.jpg" alt="Card image cap">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Piano Buying/Selling</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          </div>
+        </div>
+        
+              <div class="pricing-column col-md-4"> <img class="card-img-top" src="images/card-img.png" alt="Card image cap">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Piano Renting</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          </div>
+        </div>
+
+    </div>
+    </div>
+    </section>
+
+<section class="contact-us coloured-section">
+    <h2 class="section-heading">Contact Us</h2>
+
+
+
+</section>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 

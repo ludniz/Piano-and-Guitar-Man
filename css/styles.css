@@ -14,13 +14,14 @@ body {
 }
 
 .home {
-background-image: url("../images/piano-349928.jpg");
+    background-image: url("../images/cover-piano.jpg");
+    
     
   /* Full height */
   height: 100%; 
 
   /* Center and scale the image nicely */
-  background-position: center top;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -30,14 +31,61 @@ background-image: url("../images/piano-349928.jpg");
     color: white;
 }
 
-.img-fluid {
+.img-logo {
 /*    width: 100%;*/
     max-width: 30%;
 /*    height: auto;*/
     margin: 250px 0 50px;
 }
 
-.two {
+.img-medium {
+     max-width: 30%;
+    height: auto;
+    border-radius: 50%;
+    
+}
+
+.meet-deon {
+    background-color: white;
+    padding: 100px;
+}
+
+.features {
 /*    height: 100px;*/
-    background-color:antiquewhite;
+/*    position: relative;*/
+}
+
+#deon-intro {
+/*  position:relative;*/
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.meet-button {
+    position:relative;
+/*    margin: 400px 0;*/
+   bottom: 300px;
+/*    z-index: 1;*/
+}
+
+.white-section {
+    background-color: white;
+}
+
+.coloured-section {
+    background-color: aquamarine;
+}
+
+#piano-pricing {
+  padding: 1.25rem;
+}
+
+#guitar-pricing {
+  padding: 1.25rem;
+}
+
+.pricing-column {
+  padding: 2% 3%;
 }
