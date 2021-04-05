@@ -5,6 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Piano & Guitar Man</title>
+    
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100;200;300;400;500;700;800;900&display=swap" rel="stylesheet">
 
 <!-- CSS Stylesheets -->
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
@@ -16,7 +20,7 @@
 
 <body>
 <!-- body code goes here -->
-<section class="home">
+<section id="home">
     
     <!-- The fixed navbar will overlay your other content, unless you add padding to the bottom of the <body>. Tip: By default, the navbar is 50px high.  -->
     <div class="container-fluid" <!-- Nav Bar -->
@@ -57,11 +61,14 @@
                <a class="dropdown-item" href="#">Piano Buying/Selling</a>
                 <a class="dropdown-item" href="#">Piano Renting</a>
                <div class="dropdown-divider"></div>
-               <a class="dropdown-item" href="#">Something else here</a>
+               <a class="dropdown-item" href="#">Guitar Repairs</a>
+                <a class="dropdown-item" href="#">Guitar Buying/Selling</a>
+                <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Accesories/Other</a>
             </div>
          </li>
          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link disabled" href="#">Help and Advice</a>
          </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
@@ -79,41 +86,36 @@
 
 </section>
 
-<section class="meet-deon">
+<section id="meet-deon">
     
-  <h1>Meet The Man.</h1>
+    <div class="=container-fluid">
+   
+  <h2 class="section-heading">Meet The Man</h2>
   <img class="img-medium" src="images/deon.jpg" alt="deon">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida arcu ac tortor dignissim convallis aenean. Diam maecenas sed enim ut sem.</p>
-    <button type="button" class="btn btn-outline-dark btn-lg">Meet Deon</button>
-  <div class="row">
-    <div class="col-lg-4"> </div>
+  <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida arcu ac tortor dignissim convallis aenean. Diam maecenas sed enim ut sem.</h6>
+    <button type="button" class="btn btn-outline-dark btn-lg meet-button">Meet Deon</button>
   </div>
-  
     
 </section>
     
-<section class="features coloured-section">
-    
-        <div class="container-fluid">
+<section class="coloured-section" id="features">
 
-      <div class="row">
-        <div class="feature-set" class="col-lg-4">
-            <i class="fas fa-record-vinyl fa-5x"></i>
-          <h3 class="feature-heading">Easy to use.</h3>
-          <p>So easy to use, even your dog could do it.</p>
-        </div>
-          <div class="feature-set" class="col-lg-4">
-          <i class="fas fa-record-vinyl fa-5x"></i>
-          <h3 class="feature-heading">Elite Clientele</h3>
-          <p>We have all the dogs, the greatest dogs.</p>
-        </div>
-        <div class="feature-set" class="col-lg-4">
-          <i class="fas fa-record-vinyl fa-5x"></i>
-          <h3 class="feature-heading">Guaranteed to work.</h3>
-          <p>Find the love of your dog's life or your money back.</p>
-        </div>
-          </div>
-            </div>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="feature-set col-md-4"> <i class="fas fa-sliders-h fa-4x"></i>
+        <h3 class="feature-heading">Experienced</h3>
+        <p>Over 30+ years exxperience in the piano & guitar industry.</p>
+      </div>
+      <div class="feature-set col-md-4"> <i class="fas fa-guitar fa-4x"></i>
+        <h3 class="feature-heading">Trusted</h3>
+        <p>Known for consistently good work and attention to detail.</p>
+      </div>
+      <div class="feature-set col-md-4"> <i class="fas fa-record-vinyl fa-4x"></i>
+        <h3 class="feature-heading">Personal</h3>
+        <p>Something good to be written here.</p>
+      </div>
+    </div>
+  </div>
     
     <!-- Intro Video WIP-->
 <!--
@@ -130,7 +132,7 @@
     
     </section>
     
-    <section class="white-section" id="piano-pricing">
+<section class="white-section" id="piano-pricing">
         
 <h2 class="section-heading">Piano Services</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
@@ -138,46 +140,49 @@
     <div class="row">
       <div class="pricing-column col-md-4"> <img class="card-img-top" src="images/piano-tuning.jpg" alt="Piano Tuning Image">
         <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Piano Tuning, Repairs & Servicing</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          <div class="pricing-body card-body">
+            <h3 class="pricing-title card-title">Piano Tuning, Repairs & Servicing</h3>
+<!--            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+            <a href="#" class="btn btn-outline-dark pricing-button">Find Out More</a> </div>
           </div>
         </div>
 
               <div class="pricing-column col-md-4"> <img class="card-img-top" src="images/piano-buying.jpg" alt="Card image cap">
         <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Piano Buying/Selling</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          <div class="pricing-body card-body">
+            <h3 class="pricing-title card-title">Piano Buying & Selling</h3>
+<!--            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+            <a href="#" class="btn btn-outline-dark pricing-button">Find Out More</a> </div>
           </div>
         </div>
         
               <div class="pricing-column col-md-4"> <img class="card-img-top" src="images/card-img.png" alt="Card image cap">
         <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Piano Renting</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          <div class="pricing-body card-body">
+            <h3 class="pricing-title card-title">Piano Renting</h3>
+<!--            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+            <a href="#" class="btn btn-outline-dark pricing-button">Find Out More</a> </div>
           </div>
         </div>
 
     </div>
-    </div>
-    </section>
     
+</section>   
     
-<section class="testimonials coloured-section">
+<section class="coloured-section" id="testimonials">
   <div id="carouselControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active container-fluid">
+        <div class="carousel-item active container-fluid carousel-text">
           <h2 class="testimonial-text">Deon know's his work. Very Happy. Strongly Recommended.</h2>
-          <em>Sylvia M.E. Roets, New York</em>
+          <em>Sylvia M.E. Roets</em>
         </div>
-        <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">Going the Extra Mile to...</h2>
+        <div class="carousel-item container-fluid carousel-text">
+          <h2 class="testimonial-text">Going the Extra Mile... It means the world to me. Thank you Deon van Rooyen!</h2>
           <em>Donvé Fullard, Smithfield</em>
+        </div>
+        <div class="carousel-item container-fluid carousel-text">
+          <h2 class="testimonial-text">My Ibach has arrived. The most beautiful sound ever. Thanks Deon van Rooyen for superb quality of service!</h2>
+          <em>Rosita Rode</em>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
@@ -191,7 +196,7 @@
     </div>
     </section>
     
-    <section class="white-section" id="guitar-pricing">
+<section class="white-section" id="guitar-pricing">
         
 <h2 class="section-heading">Guitar Services</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
@@ -199,38 +204,89 @@
     <div class="row">
       <div class="pricing-column col-md-4"> <img class="card-img-top" src="images/piano-tuning.jpg" alt="Piano Tuning Image">
         <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Piano Tuning</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          <div class="pricing-body card-body">
+            <h3 class="pricing-title card-title">Guitar Repairs & Servicing</h3>
+<!--            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+            <a href="#" class="btn btn-outline-dark pricing-button">Find Out More</a> </div>
           </div>
         </div>
 
               <div class="pricing-column col-md-4"> <img class="card-img-top" src="images/piano-buying.jpg" alt="Card image cap">
         <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Piano Buying/Selling</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          <div class="pricing-body card-body">
+            <h3 class="pricing-title card-title">Guitar Buying & Selling</h3>
+<!--            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+            <a href="#" class="btn btn-outline-dark pricing-button">Find Out More</a> </div>
           </div>
         </div>
         
               <div class="pricing-column col-md-4"> <img class="card-img-top" src="images/card-img.png" alt="Card image cap">
         <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Piano Renting</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a> </div>
+          <div class="pricing-body card-body">
+            <h3 class="pricing-title card-title">Accesories</h3>
+<!--            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+            <a href="#" class="btn btn-outline-dark pricing-button">Find Out More</a> </div>
           </div>
         </div>
 
     </div>
-    </div>
+        
     </section>
 
-<section class="contact-us coloured-section">
-    <h2 class="section-heading">Contact Us</h2>
-
+<section class="coloured-section contact" id="contact-us">
+    <div class="content">
+        <h2 class="section-heading">Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo laoreet. Varius morbi enim nunc faucibus a pellentesque sit amet.</p>
+    </div>
+    <div class="container">
+        <div class="contactInfo">
+            <div class="box">
+                <div class="icon"><i class="fas fa-map-marker fa-2x"></i></div>
+                <div class="text">
+                    <h3>Address</h3>
+                    <p>40 Verster Street, <br>Universitas, <br>9301</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fas fa-phone fa-2x"></i></div>
+              <div class="text">
+                    <h3>Phone</h3>
+                    <p>+2779 023 2556</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fas fa-envelope fa-2x"></i></div>
+              <div class="text">
+                    <h3>Email</h3>
+                    <p>ludwigvr@hotmail.com</p>
+                </div>
+            </div>
+        </div>
+        
+<!-----------------------------------------------CONTACT FORM------------------------------------------------------------------------------------------------->
+        
+        <div class="contactForm">
+            <form>
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="inputBox">
+                    <textarea required="required"></textarea>
+                    <span>Type your Message...</span>
+                </div>
+                <div class="inputBox">
+                    <button type="button" class="btn btn-outline-dark btn-lg form-button">Send</button>
+<!--                    <input type="submit" name="" value="Send">-->
+                </div>
+            </form>
+        </div>
+    </div>
 
 
 </section>

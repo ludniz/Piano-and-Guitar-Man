@@ -1,33 +1,53 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*Typography*/
+/*TYPOGRAPHY*/
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-weight: 300;
+}
 
 .big-heading {
+  font-family: 'Merriweather', serif;
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 400;
 }
 
-body {
-    text-align: center;
+.section-heading {
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
-.home {
-    background-image: url("../images/cover-piano.jpg");
+body {
     
+}
+
+.container-fluid {
+/*    margin: 100px 0;*/
+}
+
+/*HOME*/
+
+#home {
+    text-align: center;
+    background-image: url("../images/cover-piano-edit.jpg");
     
   /* Full height */
   height: 100%; 
 
   /* Center and scale the image nicely */
-  background-position: center bottom;
+  background-position: 50% 80%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .landing {
-    padding: 0px 0 100px;
+    padding: 0px 0 200px;
     color: white;
 }
 
@@ -36,23 +56,75 @@ body {
     max-width: 30%;
 /*    height: auto;*/
     margin: 250px 0 50px;
+    filter: invert()
+}
+
+
+/*MEET DEON*/
+
+#meet-deon {
+    text-align: center;
+    background-color: white;
+    margin: 100px 0;
+    padding: 0 12%;
+}
+
+.meet-button {
+    margin: 50px 0 0;
+}
+
+/*FEATURES*/
+
+#features {
+    text-align: center;
+}
+
+.feature-set {
+  padding: 5%;
+}
+
+.feature-heading {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+    padding: 5% 0 2%;
+}
+
+/*PRICING*/
+
+.pricing-title {
+    padding: 5% 0 3%; 
+}
+
+.pricing-body {
+    padding: 0 7%;
+}
+
+.pricing-button {
+    margin: 0 0 30px;
+}
+
+/*TESTIMONIALS*/
+
+#testimonials {
+    text-align: center;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.carousel-text {
+    padding: 5% 20%;
 }
 
 .img-medium {
-     max-width: 30%;
-    height: auto;
-    border-radius: 50%;
-    
-}
-
-.meet-deon {
-    background-color: white;
-    padding: 100px;
-}
-
-.features {
-/*    height: 100px;*/
-/*    position: relative;*/
+  max-width: 30%;
+  height: auto;
+  border-radius: 50%;
+  margin: 50px 0;
 }
 
 #deon-intro {
@@ -63,29 +135,137 @@ body {
   min-height: 100%;
 }
 
-.meet-button {
-    position:relative;
-/*    margin: 400px 0;*/
-   bottom: 300px;
-/*    z-index: 1;*/
-}
-
 .white-section {
     background-color: white;
 }
 
 .coloured-section {
-    background-color: aquamarine;
+    background-color: #00adb5;
 }
 
 #piano-pricing {
+    text-align: center;
   padding: 1.25rem;
 }
 
 #guitar-pricing {
+    text-align: center;
   padding: 1.25rem;
 }
 
 .pricing-column {
   padding: 2% 3%;
+}
+
+/*CONTACT US*/
+
+#contact-us {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+/*
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+*/
+}
+
+#contact-us .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; 
+}
+
+#contact-us .container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-us .container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+#contact-us .container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+}
+
+#contact-us .container .contactInfo .box .text {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+/*    background-image:url("../images/cover-piano-edit.jpg");*/
+    background-size: cover;
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+/*CONTACT US FORM*/
+
+.contactForm {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea 
+{
+    width: 100%;
+    padding: 5px 0;
+    margin: 10px 0;
+    resize: none;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span, 
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span 
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
 }
