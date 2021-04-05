@@ -21,6 +21,18 @@ p {
   line-height: 1.5;
   font-weight: 700;
   font-size: 3rem;
+    margin: 50px 0;
+}
+
+/*SECTIONS*/
+
+.white-section {
+    background-color: white;
+}
+
+.coloured-section {
+    background-color: #290001;
+    color: #fff;
 }
 
 body {
@@ -64,9 +76,7 @@ body {
 
 #meet-deon {
     text-align: center;
-    background-color: white;
-    margin: 100px 0;
-    padding: 0 12%;
+    padding: 0 12% 100px;
 }
 
 .meet-button {
@@ -79,6 +89,13 @@ body {
     text-align: center;
 }
 
+.img-medium {
+  max-width: 30%;
+  height: auto;
+  border-radius: 50%;
+  margin: 50px 0;
+}
+
 .feature-set {
   padding: 5%;
 }
@@ -87,7 +104,7 @@ body {
   font-size: 1.5rem;
   line-height: 1.5;
   font-weight: 700;
-    padding: 5% 0 2%;
+  padding: 5% 0 2%;
 }
 
 /*PRICING*/
@@ -120,11 +137,11 @@ body {
     padding: 5% 20%;
 }
 
-.img-medium {
-  max-width: 30%;
+.testimonial-image {
+  max-width: 10%;
   height: auto;
   border-radius: 50%;
-  margin: 50px 0;
+  margin: 20px;
 }
 
 #deon-intro {
@@ -135,13 +152,7 @@ body {
   min-height: 100%;
 }
 
-.white-section {
-    background-color: white;
-}
-
-.coloured-section {
-    background-color: #00adb5;
-}
+/*PRICING*/
 
 #piano-pricing {
     text-align: center;
@@ -157,12 +168,17 @@ body {
   padding: 2% 3%;
 }
 
+.card-img-top {
+width: 100%;
+height: 40vh;
+object-fit: cover;
+}
+
 /*CONTACT US*/
 
 #contact-us {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    text-align: center;
+    padding: 0 15%;
     
 /*
     position: relative;
@@ -173,6 +189,12 @@ body {
     align-items: center;
     flex-direction: column;
 */
+}
+
+#contact-us {
+    background-color: #290001;
+    color: #fff;
+    padding: 0 12% 100px;
 }
 
 #contact-us .container {
@@ -208,11 +230,12 @@ body {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 
 .contact {
     position: relative;
-    min-height: 100vh;
+/*    min-height: 100vh;*/
     padding: 50px 100px;
     display: flex;
     justify-content: center;
@@ -268,4 +291,23 @@ body {
     color: #e91e63;
     font-size: 12px;
     transform: translateY(-20px);
+}
+
+.contactForm h2 {
+    color:black;
+}
+    
+/* FOOTER */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #87431d;
+    color: #fff;
+}
+
+.f-icon {
+     padding: 2% 1%;  
+}
+ 
 }
