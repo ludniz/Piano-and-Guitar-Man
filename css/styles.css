@@ -194,30 +194,34 @@ object-fit: cover;
 #contact-us {
     background-color: #290001;
     color: #fff;
-    padding: 0 12% 100px;
+    padding: 0 15% 100px;
 }
 
-#contact-us .container {
+.contact-container {
+/*
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+*/
     margin-top: 30px; 
 }
 
-#contact-us .container .contactInfo {
+/*
+.contactInfo {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
+*/
 
-#contact-us .container .contactInfo .box {
+.box {
     position: relative;
     padding: 20px 0;
     display: flex;
 }
 
-#contact-us .container .contactInfo .box .icon {
+.contact-icon {
     min-width: 60px;
     height: 60px;
     display: flex;
@@ -226,7 +230,7 @@ object-fit: cover;
     border-radius: 50%; 
 }
 
-#contact-us .container .contactInfo .box .text {
+.contact-text {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
@@ -253,7 +257,7 @@ object-fit: cover;
 /*CONTACT US FORM*/
 
 .contactForm {
-    width: 40%;
+/*    width: 40%;*/
     padding: 40px;
     background: #fff;
 }
@@ -310,4 +314,3 @@ object-fit: cover;
      padding: 2% 1%;  
 }
  
-}
