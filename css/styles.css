@@ -28,6 +28,21 @@ p {
     text-align: left;
 }
 
+/*IMAGES*/
+.img-medium {
+  max-width: 30%;
+  height: auto;
+  border-radius: 50%;
+  margin: 50px 0;
+}
+
+.img-large {
+  max-width: 50%;
+  height: auto;
+  border-radius: 50%;
+  margin: 50px 0;
+}
+
 /*SECTIONS*/
 
 .white-section {
@@ -108,13 +123,6 @@ body {
 
 #features {
     text-align: center;
-}
-
-.img-medium {
-  max-width: 30%;
-  height: auto;
-  border-radius: 50%;
-  margin: 50px 0;
 }
 
 .feature-set {
