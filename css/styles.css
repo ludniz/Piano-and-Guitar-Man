@@ -335,6 +335,10 @@ object-fit: cover;
     margin: 250px 0px 50px;
 }
 
+.about-text {
+    padding: 2% 0;
+    line-height: 1.8;
+}
     
 /* FOOTER */
 
