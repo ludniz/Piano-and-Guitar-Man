@@ -10,6 +10,14 @@ p {
     font-weight: 300;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
 .big-heading {
   font-family: 'Merriweather', serif;
   font-size: 3.5rem;
@@ -49,6 +57,21 @@ p {
   border-radius: 50%;
   margin: 50px 0;
 }
+
+/*FONTAWESOME*/
+
+.icon {
+    color: white;
+    transition: transform .2s; /* Animation */
+}
+
+.icon:hover {
+    color: #dbcbbd;
+    transform: scale(1.5);
+    
+}
+
+
 
 /*SECTIONS*/
 
@@ -349,6 +372,22 @@ object-fit: cover;
 
 #services {
     text-align: center;
+    padding: 0 10%;
+}
+
+.services-set {
+  padding: 5% 2%;
+}
+
+.services-text {
+    padding: 8% 0;
+    color: white;
+    text-decoration: none;
+    transition: transform .2s; /* Animation */
+}
+
+.services-text:hover {
+    font-weight: 700;
 }
     
 /* FOOTER */
