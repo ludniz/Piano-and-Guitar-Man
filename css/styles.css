@@ -1,14 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*TYPOGRAPHY*/
-h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Montserrat', sans-serif;
+/*NEEDED FOR BACKGROUND IMAGES TO DISPLAY FULL SCREEN*/
+
+body, html {
+  height: 100%;
 }
 
-p {
-    font-weight: 300;
+/*CHANGE ICONS COLORS TO ORIGINAL*/
+
+a {
+  color:inherit;
 }
+
+/*PREVENT HYPERLINKS UNDERLIGN AND DEFAULT COLOR*/
 
 a:link {
   text-decoration: none;
@@ -16,6 +21,15 @@ a:link {
 
 a:visited {
   text-decoration: none;
+}
+
+/*TYPOGRAPHY*/
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-weight: 300;
 }
 
 .big-heading {
@@ -45,8 +59,37 @@ a:visited {
     margin: 80px 0;
 }
 
+.section-heading-services {
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 3rem;
+    padding: 50px 0 0;
+}
+
 .left-align {
     text-align: left;
+}
+
+.about-caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.border {
+    background-color: #290001;
+    color: #fff;
+    padding: 18px;
+    display: inline-block;
+    border: #290001;
+/*
+    TESTING
+    font-size: 25px;
+    letter-spacing: 10px;
+*/
 }
 
 /*IMAGES*/
@@ -71,6 +114,35 @@ a:visited {
   margin: 50px 0;
 }
 
+.bg-home-img-1 {
+    background-image: url("../images/cover-piano-trans.png");
+    min-height: 100%;
+}
+
+.bg-about-img-1 {
+    background-image: url("../images/about-us-trans.png");
+    min-height: 100%;
+}
+
+.bg-about-img-2 {
+    background-image: url("../images/tools-trans.png");
+    min-height: 400px;
+}
+
+.bg-about-img-3 {
+    background-image: url("../images/piano-hands-trans.png");
+    min-height: 400px;
+}
+
+.bg-about-img-1, .bg-about-img-2, .bg-about-img-3, .bg-home-img-1 {
+    position: relative;
+/*    opacity: 0.65;*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*FONTAWESOME*/
 
 .icon {
@@ -80,14 +152,13 @@ a:visited {
 
 .icon:hover {
     color: #dbcbbd;
-    transform: scale(1.5);
-    
+    transform: scale(1.2);
 }
 
 /*BUTTONS*/
 
 .contact-button {
-    margin: 2% 0;
+    margin: 15px 0;
 }
 
 /*WHATSAPP*/
@@ -151,16 +222,22 @@ body {
 
 #home {
     text-align: center;
-    background-image: url("../images/cover-piano-edit.jpg");
+/*    background-image: url("../images/cover-piano-edit.jpg");*/
     
-  /* Full height */
+/*
+    Full height 
   height: 100%; 
+*/
 
-  /* Center and scale the image nicely */
+/*   Center and scale the image nicely */
+
+/*
   background-position: 50% 80%;
   background-repeat: no-repeat;
   background-size: cover;
+*/
 }
+
 
 .landing {
     padding: 0px 0 200px;
@@ -169,9 +246,9 @@ body {
 
 .img-logo {
 /*    width: 100%;*/
-    max-width: 30%;
+    max-width: 25%;
 /*    height: auto;*/
-    margin: 250px 0 50px;
+    margin: 180px 0 50px;
     filter: invert()
 }
 
@@ -408,6 +485,11 @@ object-fit: cover;
     line-height: 1.8;
 }
 
+.services-center {
+    text-align: center;
+    padding: 0 15%; 
+}
+
 #services {
     text-align: center;
     padding: 0 10%;
@@ -425,12 +507,12 @@ object-fit: cover;
 }
 
 .services-text:hover {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 #about-contact {
     text-align: center;
-    padding: 2% 10%;
+    padding: 50px 10%;
 }
 
 #facebook {
@@ -447,7 +529,7 @@ object-fit: cover;
 
 .page-text {
     text-align: center;
-    padding: 0 12% 50px; 
+    padding: 50px 12%; 
 }
 
 .banner {
@@ -469,6 +551,13 @@ object-fit: none; /* Do not scale the image */
 }
 
 .f-icon {
-     padding: 2% 1%;  
+     padding: 2% 1%;
+    margin: 20px 7px;
+    transition: transform .2s; /* Animation */
+}
+
+.f-icon:hover {
+    color: #dbcbbd;
+    transform: scale(1.2);
 }
  
