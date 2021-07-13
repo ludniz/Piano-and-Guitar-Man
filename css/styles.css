@@ -268,6 +268,7 @@ body {
 
 #features {
     text-align: center;
+    padding: 0 8%;
 }
 
 .feature-set {
@@ -279,6 +280,10 @@ body {
   line-height: 1.5;
   font-weight: 700;
   padding: 5% 0 2%;
+}
+
+.feature-text {
+    padding: 0 15%;
 }
 
 /*PRICING*/
