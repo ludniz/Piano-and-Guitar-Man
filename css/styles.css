@@ -310,6 +310,8 @@ body {
   line-height: 1.5;
   font-weight: 500;
   font-size: 1.5rem;
+    min-height: 220px;
+/*    padding: 20px 0;*/
 }
 
 .carousel-text {
