@@ -79,6 +79,15 @@ p {
     color: #000;
 }
 
+.home-caption {
+    position: absolute;
+    left: 0;
+    padding: 80px 0 0;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
 .border {
     background-color: #290001;
     color: #fff;
@@ -90,6 +99,14 @@ p {
     font-size: 25px;
     letter-spacing: 10px;
 */
+}
+
+.home-border {
+    background-color: #000000;
+    color: #fff;
+    padding: 18px;
+    display: inline-block;
+    border: #000000;
 }
 
 /*IMAGES*/
@@ -134,7 +151,12 @@ p {
     min-height: 400px;
 }
 
-.bg-about-img-1, .bg-about-img-2, .bg-about-img-3, .bg-home-img-1 {
+.bg-piano-tune-img-1 {
+    background-image: url("../images/piano-tuning-services-trans.png");
+    min-height: 100%;
+}
+
+.bg-about-img-1, .bg-about-img-2, .bg-about-img-3, .bg-home-img-1, .bg-piano-tune-img-1 {
     position: relative;
 /*    opacity: 0.65;*/
     background-attachment: fixed;
@@ -245,11 +267,12 @@ body {
 }
 
 .img-logo {
-/*    width: 100%;*/
-    max-width: 25%;
-/*    height: auto;*/
-    margin: 180px 0 50px;
-    filter: invert()
+    width: 100%;
+    min-width: 150px;
+    max-width: 20%;
+    height: auto;
+    margin: 180px 0 0;
+/*    filter: invert()*/
 }
 
 
@@ -285,6 +308,8 @@ body {
 .feature-text {
     padding: 0 15%;
 }
+
+
 
 /*PRICING*/
 
