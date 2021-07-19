@@ -153,10 +153,25 @@ p {
 
 .bg-piano-tune-img-1 {
     background-image: url("../images/piano-tuning-services-trans.png");
-    min-height: 100%;
+    min-height: 400px;
 }
 
-.bg-about-img-1, .bg-about-img-2, .bg-about-img-3, .bg-home-img-1, .bg-piano-tune-img-1 {
+.bg-piano-buy-img-1 {
+    background-image: url("../images/piano-buying-trans.png");
+    min-height: 400px;
+}
+
+.bg-piano-rent-img-1 {
+    background-image: url("../images/piano-renting-trans.png");
+    min-height: 400px;
+}
+
+.bg-guitar-buy-img-1 {
+    background-image: url("../images/guitar-buy-trans.png");
+    min-height: 400px;
+}
+
+.bg-about-img-1, .bg-about-img-2, .bg-about-img-3, .bg-home-img-1, .bg-piano-tune-img-1, .bg-piano-buy-img-1, .bg-piano-rent-img-1, .bg-guitar-buy-img-1 {
     position: relative;
 /*    opacity: 0.65;*/
     background-attachment: fixed;
@@ -562,6 +577,10 @@ object-fit: cover;
 .page-text {
     text-align: center;
     padding: 50px 12%; 
+}
+
+.page-subtitle {
+    padding: 50px 0 0;
 }
 
 .banner {
