@@ -166,12 +166,22 @@ p {
     min-height: 400px;
 }
 
+.bg-guitar-rep-img-1 {
+    background-image: url("../images/guitar-rep-trans.png");
+    min-height: 400px;
+}
+
 .bg-guitar-buy-img-1 {
     background-image: url("../images/guitar-buy-trans.png");
     min-height: 400px;
 }
 
-.bg-about-img-1, .bg-about-img-2, .bg-about-img-3, .bg-home-img-1, .bg-piano-tune-img-1, .bg-piano-buy-img-1, .bg-piano-rent-img-1, .bg-guitar-buy-img-1 {
+.bg-acc-img-1 {
+    background-image: url("../images/accessories-trans.png");
+    min-height: 400px;
+}
+
+.bg-about-img-1, .bg-about-img-2, .bg-about-img-3, .bg-home-img-1, .bg-piano-tune-img-1, .bg-piano-buy-img-1, .bg-piano-rent-img-1, .bg-guitar-buy-img-1, .bg-guitar-rep-img-1, .bg-acc-img-1 {
     position: relative;
 /*    opacity: 0.65;*/
     background-attachment: fixed;
@@ -195,6 +205,10 @@ p {
 /*BUTTONS*/
 
 .contact-button {
+    margin: 15px 0;
+}
+
+.guitar-rep-button {
     margin: 15px 0;
 }
 
