@@ -467,9 +467,22 @@ object-fit: cover;
 
 .contact-text {
     margin-left: 20px;
+/*
     display: flex;
     flex-direction: column;
+*/
     text-align: left;
+}
+
+.contact-text-detail {
+    color: white;
+    text-decoration: none;
+    transition: transform .2s; /* Animation */
+    
+}
+
+.contact-text-detail:hover {
+    font-weight: 500;
 }
 
 .contact {
