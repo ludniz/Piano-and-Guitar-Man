@@ -639,3 +639,40 @@ object-fit: none; /* Do not scale the image */
     transform: scale(1.2);
 }
  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .testimonial-text {
+        min-height: 260px;
+    }
+    .bg-about-img-1, .bg-about-img-2, .bg-about-img-3, .bg-home-img-1, .bg-piano-tune-img-1, .bg-piano-buy-img-1, .bg-piano-rent-img-1, .bg-guitar-buy-img-1, .bg-guitar-rep-img-1, .bg-acc-img-1 {
+        background-attachment: scroll;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .testimonial-text {
+        min-height: 150px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .testimonial-text {
+        min-height: 150px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .testimonial-text {
+        min-height: 120px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .testimonial-text {
+        min-height: 50px;
+    }
+}
