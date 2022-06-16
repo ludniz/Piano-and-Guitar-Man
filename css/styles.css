@@ -620,6 +620,21 @@ object-fit: none; /* Do not scale the image */
     padding-top: 50px;
 }
 
+/* SHOP */
+
+.btn:focus{
+    outline: none!important;
+    box-shadow: none!important;
+}
+.btn-primary{
+    background-color: #fff!important;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #000000!important;
+    color: #fff!important;
+}
+
 /* FOOTER */
 
 #footer {
