@@ -640,6 +640,37 @@ object-fit: none; /* Do not scale the image */
     border-radius: 4px;
     position: relative;
 }
+
+.product-title{
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5% 0 0;
+    margin-bottom: 0;
+}
+
+.product-price{
+    text-align: center;
+}
+
+.product-text{
+    padding: 5% 0 0;
+}
+
+.product-column{
+
+}
+
+.product-button {
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+.card:hover {
+    transform:scale(1.1);
+  }
+
 .product-img:hover::after{
     content: "";
     position: absolute;
