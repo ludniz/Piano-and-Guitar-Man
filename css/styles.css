@@ -94,11 +94,7 @@ p {
     padding: 18px;
     display: inline-block;
     border: #290001;
-/*
-    TESTING
-    font-size: 25px;
-    letter-spacing: 10px;
-*/
+
 }
 
 .home-border {
@@ -271,32 +267,10 @@ p {
     border: 0;
 }
 
-body {
-    
-}
-
-.container-fluid {
-/*    margin: 100px 0;*/
-}
-
 /*HOME*/
 
 #home {
     text-align: center;
-/*    background-image: url("../images/cover-piano-edit.jpg");*/
-    
-/*
-    Full height 
-  height: 100%; 
-*/
-
-/*   Center and scale the image nicely */
-
-/*
-  background-position: 50% 80%;
-  background-repeat: no-repeat;
-  background-size: cover;
-*/
 }
 
 
@@ -667,22 +641,23 @@ object-fit: none; /* Do not scale the image */
     text-align: center;
 }
 
-#cards_wrap{
+#shop{
     background: #F7F7F7;
+    padding: 0 12% 100px;
 }
 
-#cards_wrap .card-flyer {
+#shop .card-flyer {
     border-radius: 5px;
   }
 
-  #cards_wrap .card-flyer .image-box{
+  #shop .card-flyer .image-box{
     background: #ffffff;
     overflow: hidden;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
     border-radius: 5px;
   }
 
-  #cards_wrap .card-flyer .image-box img{
+  #shop .card-flyer .image-box img{
     -webkit-transition:all .9s ease; 
     -moz-transition:all .9s ease; 
     -o-transition:all .9s ease;
@@ -691,7 +666,7 @@ object-fit: none; /* Do not scale the image */
     height: 400px;
   }
 
-  #cards_wrap .card-flyer:hover .image-box img{
+  #shop .card-flyer:hover .image-box img{
   opacity: 0.7;
   -webkit-transform:scale(1.15);
   -moz-transform:scale(1.15);
@@ -700,7 +675,7 @@ object-fit: none; /* Do not scale the image */
   transform:scale(1.15);
 }
 
-#cards_wrap .card-flyer{
+#shop .card-flyer{
     background: #FFFFFF;
     margin-top: 50px;
     -webkit-transition: all 0.2s ease-in;
@@ -711,7 +686,7 @@ object-fit: none; /* Do not scale the image */
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
   }
 
-  #cards_wrap .card-flyer:hover{
+  #shop .card-flyer:hover{
     background: #fff;
     box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
     -webkit-transition: all 0.2s ease-in;
@@ -721,10 +696,6 @@ object-fit: none; /* Do not scale the image */
     transition: all 0.2s ease-in;
     margin-top: 50px;
   }
-
-/* .card:hover {
-    transform:scale(1.1);
-  } */
 
 .product-img:hover::after{
     content: "";
@@ -747,10 +718,12 @@ object-fit: none; /* Do not scale the image */
 
 /* SHOP-TEST */
 
+/* MIXITUP PLUGIN */
+
 /* Controls
 ---------------------------------------------------------------------- */
 
-.controls {
+/* .controls {
     padding: 1rem;
     background: #333;
     font-size: 0.1px;
@@ -766,11 +739,11 @@ object-fit: none; /* Do not scale the image */
     font-size: 0.1px;
     color: white;
     transition: background 150ms;
-}
+} */
 
-.control:hover {
+/* .control:hover {
     background: #3f3f3f;
-}
+} */
 
 .control[data-filter]:after {
     content: '';
@@ -801,9 +774,9 @@ object-fit: none; /* Do not scale the image */
     transform:  translateY(-4px) rotate(-135deg);
 }
 
-.mixitup-control-active {
+/* .mixitup-control-active {
     background: #393939;
-}
+} */
 
 .mixitup-control-active[data-filter]:after {
     background: transparent;
@@ -855,25 +828,25 @@ object-fit: none; /* Do not scale the image */
 /* Target Elements
 ---------------------------------------------------------------------- */
 
-.mix,
+/* .mix,
 .gap {
     display: inline-block;
     vertical-align: top;
-}
+} */
 
-.mix {
+/* .mix {
     background: #fff;
     border-top: .5rem solid currentColor;
     border-radius: 2px;
     margin-bottom: 1rem;
     position: relative;
-}
+} */
 
-.mix:before {
+/* .mix:before {
     content: '';
     display: inline-block;
     padding-top: 56.25%;
-}
+} */
 
 .mix.green {
     color: #91e6c7;
