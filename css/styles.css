@@ -821,6 +821,7 @@ object-fit: none; /* Do not scale the image */
     text-align: justify;
     font-size: 0.1px;
     background: #F7F7F7;
+    padding: 0 0 40px;
 }
 
 .container:after {
