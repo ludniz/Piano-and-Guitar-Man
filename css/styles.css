@@ -648,7 +648,7 @@ object-fit: none; /* Do not scale the image */
 }
 
 #shop{
-    padding: 0 12% 100px;
+    padding: 0 12% 0;
 }
 
 #shop .card-flyer {
@@ -853,16 +853,12 @@ object-fit: none; /* Do not scale the image */
     padding-top: 56.25%;
 } */
 
-.mix.green {
-    color: #91e6c7;
+#faq-section {
+    padding: 0 12% 0;
 }
 
-.mix.pink {
-    color: #d595aa;
-}
-
-.mix.blue {
-    color: #5ecdde;
+#faq {
+    padding: 0 0 150px; 
 }
 
 
