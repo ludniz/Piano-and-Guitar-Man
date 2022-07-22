@@ -343,6 +343,7 @@ p {
     margin: 0 0 30px;
 }
 
+
 /*TESTIMONIALS*/
 
 #testimonials {
@@ -383,9 +384,9 @@ p {
 
 /*PRICING*/
 
-#piano-pricing {
+#piano-services {
     text-align: center;
-  padding: 1.25rem;
+  padding: 0 12%;
 }
 
 #guitar-pricing {
@@ -399,8 +400,13 @@ p {
 
 .card-img-top {
 width: 100%;
-height: 40vh;
+height: 300px;
 object-fit: cover;
+object-position: center;
+}
+
+.card{
+    border-radius: 5px
 }
 
 /*CONTACT US*/
