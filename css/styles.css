@@ -179,12 +179,12 @@ p {
 
 .bg-shop-img-1 {
     background-image: url("../images/music-shop.jpg");
-    object-fit: cover; /* Do not scale the image */
-    object-position: center; /* Center the image within the element */
+    object-fit: cover; /*Do not scale the image */
+    background-position: bottom; /* Center the image within the element */
     width: 100%;
-    max-height: 250px;
-    display:block;
-    z-index: -1;
+    min-height: 550px;
+    /* display:block; */
+    /* z-index: -1; */
     /* position: relative; */
 }
 
@@ -309,7 +309,30 @@ p {
 }
 
 .white-box {
-    padding: 0 10%;
+    /* padding: 0 10%; */
+    background-color: white;
+    /* color: #fff; */
+    display: inline-block;
+    border: #000000;
+}
+
+.shop-title{
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    /* padding: 5% 0 2%; */
+    margin-bottom: 0;
+}
+
+.shop-text {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    align-items: center;
 }
 
 
