@@ -316,6 +316,11 @@ p {
     border: #000000;
 }
 
+#shop-index {
+    text-align: center;
+    padding: 0 23%;
+}
+
 .shop-title{
     line-height: 1.5;
     font-weight: 500;
@@ -326,13 +331,24 @@ p {
 }
 
 .shop-text {
-    position: absolute;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    align-items: center;
+    /* position: absolute; */
+    background-color: white;
+    color: black;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    /* text-align: center; */
+    /* align-items: center; */
+}
+
+.shop-box {
+    top: 50px;
+}
+
+.shop-index-heading {
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 5% 5% 0;
 }
 
 
