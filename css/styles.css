@@ -761,9 +761,9 @@ object-fit: none; /* Do not scale the image */
     height: 10px;
     top: calc(50% - 6px);
     left: calc(50% - 6px);
-    border: 2px solid currentColor;
+    /* border: 2px solid currentColor; */
     border-radius: 2px;
-    background: currentColor;
+    /* background: currentColor; */
     transition: background-color 150ms, border-color 150ms;
 }
 
