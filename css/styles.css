@@ -725,6 +725,36 @@ object-fit: none; /* Do not scale the image */
   max-height: 250px;
 }
 
+.accordion-button:not(.collapsed) {
+    color: #FFF  !important;
+    background-color: #290001 !important;
+  }
+
+  /* .accordion-button:link, .accordion-button:visited, .accordion-button:active  {
+  background-color: #5500C9 !important;
+    color:#FFF !important;
+    text-decoration: none !important;
+     border: hidden !important;
+       border-color: #FFF !important;
+    box-shadow: 0px !important; 
+} */
+
+/* SET BORDER TO GREY */
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: rgb(215, 215, 215) !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgb(215, 215, 215) !important;
+  }
+
+  /* SET ARROW TO BLACK */
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+ }
+
+
 /* SHOP-TEST */
 
 /* MIXITUP PLUGIN */
