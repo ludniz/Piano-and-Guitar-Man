@@ -177,6 +177,17 @@ p {
     min-height: 400px;
 }
 
+.bg-shop-img-1 {
+    background-image: url("../images/music-shop.jpg");
+    object-fit: cover; /*Do not scale the image */
+    background-position: bottom; /* Center the image within the element */
+    width: 100%;
+    min-height: 550px;
+    /* display:block; */
+    /* z-index: -1; */
+    /* position: relative; */
+}
+
 .bg-acc-img-bottom, .bg-piano-tune-img-bottom, .bg-piano-buy-img-bottom, .bg-piano-rent-img-bottom, .bg-guitar-rep-img-bottom, .bg-guitar-buy-img-bottom {
     min-height: 400px;
 }
@@ -241,7 +252,16 @@ p {
 
 /* NAVBAR */
 .nav-styling {
-    padding: 0 2%;
+    padding: 0 12%;
+}
+
+.navbar-collapse.collapsing, .navbar-collapse.show {
+    text-align: center;
+    padding: 0 0 5%;
+}
+
+.dropdown-menu {
+    text-align: center;
 }
 
 /*SECTIONS*/
@@ -291,6 +311,53 @@ p {
     height: auto;
     margin: 180px 0 0;
 /*    filter: invert()*/
+}
+
+.shop-box {
+    position: relative;
+}
+
+.white-box {
+    /* padding: 0 10%; */
+    background-color: white;
+    /* color: #fff; */
+    display: inline-block;
+    border: #000000;
+}
+
+#shop-index {
+    text-align: center;
+    padding: 0 23%;
+}
+
+.shop-title{
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    /* padding: 5% 0 2%; */
+    margin-bottom: 0;
+}
+
+.shop-text {
+    /* position: absolute; */
+    background-color: white;
+    color: black;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    /* text-align: center; */
+    /* align-items: center; */
+}
+
+.shop-box {
+    top: 50px;
+}
+
+.shop-index-heading {
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 5% 5% 0;
 }
 
 
@@ -343,6 +410,7 @@ p {
     margin: 0 0 30px;
 }
 
+
 /*TESTIMONIALS*/
 
 #testimonials {
@@ -383,14 +451,14 @@ p {
 
 /*PRICING*/
 
-#piano-pricing {
+#piano-services {
     text-align: center;
-  padding: 1.25rem;
+  padding: 0 12%;
 }
 
-#guitar-pricing {
+#guitar-services {
     text-align: center;
-  padding: 1.25rem;
+  padding: 0 12%;
 }
 
 .pricing-column {
@@ -399,8 +467,13 @@ p {
 
 .card-img-top {
 width: 100%;
-height: 40vh;
+height: 300px;
 object-fit: cover;
+object-position: center;
+}
+
+.card{
+    border-radius: 5px
 }
 
 /*CONTACT US*/
