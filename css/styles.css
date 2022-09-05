@@ -70,6 +70,10 @@ p {
     text-align: left;
 }
 
+.center-align {
+    text-align: center;
+}
+
 .about-caption {
     position: absolute;
     left: 0;
