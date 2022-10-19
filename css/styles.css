@@ -833,13 +833,13 @@ object-fit: none; /* Do not scale the image */
 /* Controls
 ---------------------------------------------------------------------- */
 
-/* .controls {
-    padding: 1rem;
-    background: #333;
+.controls {
+    padding: 1rem 2rem;
+    /* background: #333; */
     font-size: 0.1px;
 }
 
-.control {
+/* .control {
     position: relative;
     display: inline-block;
     width: 2.7rem;
@@ -992,6 +992,10 @@ object-fit: none; /* Do not scale the image */
     line-height: 1.5;
     font-weight: 500;
     font-size: 1.3rem;
+    padding: 2% 0 0;
+}
+
+.product-details-description {
     padding: 2% 0;
 }
 
