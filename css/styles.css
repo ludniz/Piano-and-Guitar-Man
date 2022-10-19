@@ -974,7 +974,7 @@ object-fit: none; /* Do not scale the image */
 }
 
 .product-details-box {
-    margin: 100px 0 10%; 
+    margin: 120px 0 10%; 
     /* background: #F7F7F7; */
 }
 
@@ -982,16 +982,17 @@ object-fit: none; /* Do not scale the image */
     padding: 2%;
 }
 
-.product-details-heading {
-    /* background-color: white; */
-    /* padding: 0 5%; */
-}
-
 .product-details-heading-text {
     line-height: 1.5;
     font-weight: 700;
     font-size: 1.5rem;
+}
 
+.product-details-price-text {
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 2% 0;
 }
 
 
