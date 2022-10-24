@@ -70,6 +70,10 @@ p {
     text-align: left;
 }
 
+.center-align {
+    text-align: center;
+}
+
 .about-caption {
     position: absolute;
     left: 0;
@@ -94,7 +98,6 @@ p {
     padding: 18px;
     display: inline-block;
     border: #290001;
-
 }
 
 .home-border {
@@ -360,7 +363,6 @@ p {
     margin: 5% 5% 0;
 }
 
-
 /*MEET DEON*/
 
 #meet-deon {
@@ -394,8 +396,6 @@ p {
     padding: 0 15%;
 }
 
-
-
 /*PRICING*/
 
 .pricing-title {
@@ -409,7 +409,6 @@ p {
 .pricing-button {
     margin: 0 0 30px;
 }
-
 
 /*TESTIMONIALS*/
 
@@ -731,25 +730,25 @@ object-fit: none; /* Do not scale the image */
 
 #shop .card-flyer {
     border-radius: 5px;
-  }
+}
 
-  #shop .card-flyer .image-box{
+#shop .card-flyer .image-box{
     background: #ffffff;
     overflow: hidden;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
     border-radius: 5px;
-  }
+}
 
-  #shop .card-flyer .image-box img{
+#shop .card-flyer .image-box img{
     -webkit-transition:all .9s ease; 
     -moz-transition:all .9s ease; 
     -o-transition:all .9s ease;
     -ms-transition:all .9s ease; 
     width: 100%;
     height: 400px;
-  }
+}
 
-  #shop .card-flyer:hover .image-box img{
+#shop .card-flyer:hover .image-box img{
   opacity: 0.7;
   -webkit-transform:scale(1.15);
   -moz-transform:scale(1.15);
@@ -769,7 +768,7 @@ object-fit: none; /* Do not scale the image */
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
   }
 
-  #shop .card-flyer:hover{
+#shop .card-flyer:hover{
     background: #fff;
     box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
     -webkit-transition: all 0.2s ease-in;
@@ -778,7 +777,7 @@ object-fit: none; /* Do not scale the image */
     -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
     margin-top: 50px;
-  }
+}
 
 .product-img:hover::after{
     content: "";
@@ -798,6 +797,35 @@ object-fit: none; /* Do not scale the image */
   max-height: 250px;
 }
 
+.accordion-button:not(.collapsed) {
+    color: #FFF  !important;
+    background-color: #290001 !important;
+  }
+
+  /* .accordion-button:link, .accordion-button:visited, .accordion-button:active  {
+  background-color: #5500C9 !important;
+    color:#FFF !important;
+    text-decoration: none !important;
+     border: hidden !important;
+       border-color: #FFF !important;
+    box-shadow: 0px !important; 
+} */
+
+/* SET BORDER TO GREY */
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: rgb(215, 215, 215) !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgb(215, 215, 215) !important;
+  }
+
+  /* SET ARROW TO BLACK */
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+ }
+
 /* SHOP-TEST */
 
 /* MIXITUP PLUGIN */
@@ -805,13 +833,13 @@ object-fit: none; /* Do not scale the image */
 /* Controls
 ---------------------------------------------------------------------- */
 
-/* .controls {
-    padding: 1rem;
-    background: #333;
+.controls {
+    padding: 1rem 2rem;
+    /* background: #333; */
     font-size: 0.1px;
 }
 
-.control {
+/* .control {
     position: relative;
     display: inline-block;
     width: 2.7rem;
@@ -834,9 +862,9 @@ object-fit: none; /* Do not scale the image */
     height: 10px;
     top: calc(50% - 6px);
     left: calc(50% - 6px);
-    border: 2px solid currentColor;
+    /* border: 2px solid currentColor; */
     border-radius: 2px;
-    background: currentColor;
+    /* background: currentColor; */
     transition: background-color 150ms, border-color 150ms;
 }
 
@@ -937,6 +965,38 @@ object-fit: none; /* Do not scale the image */
 
 #faq {
     padding: 0 0 150px; 
+}
+
+/* PRODUCT DETAILS */
+
+#product-details{
+    padding: 0 12% 0;
+}
+
+.product-details-box {
+    margin: 120px 0 10%; 
+    /* background: #F7F7F7; */
+}
+
+.product-details {
+    padding: 2%;
+}
+
+.product-details-heading-text {
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.product-details-price-text {
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 2% 0 0;
+}
+
+.product-details-description {
+    padding: 2% 0;
 }
 
 
