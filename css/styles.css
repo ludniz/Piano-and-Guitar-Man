@@ -671,6 +671,12 @@ object-fit: none; /* Do not scale the image */
     padding-top: 50px;
 }
 
+.piano-tuning-text {
+    padding: 8% 0;
+    color: white;
+    text-decoration: none;
+}
+
 /* SHOP */
 
 .btn:focus{
