@@ -677,6 +677,13 @@ object-fit: none; /* Do not scale the image */
     text-decoration: none;
 }
 
+/* FACEBOOK FEED */
+
+#facebook-feed {
+    text-align: center;
+    padding: 0 10%;
+}
+
 /* SHOP */
 
 .btn:focus{
