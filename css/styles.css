@@ -681,7 +681,7 @@ object-fit: none; /* Do not scale the image */
 
 #facebook-feed {
     text-align: center;
-    padding: 0 10%;
+    padding: 0 8% 100px;
 }
 
 /* SHOP */
